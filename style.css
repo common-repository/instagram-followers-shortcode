@@ -1,0 +1,87 @@
+.clr{
+	clear: both;
+}
+#instagramFollowers{
+	background: #fff;
+	font-family: arial,sans-serif;
+}
+#instagramFollowers #followers{
+	border: 1px solid #315c99;
+}
+#instagramFollowers #followers .followUs{
+	background: #3b6990;
+	padding: 5px;
+	color: #ffffff;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #d8dfea;
+}
+#instagramFollowers #followers .floatelement,#instagramFollowers #followers .floatelement2{
+	padding: 10px;
+}
+#instagramFollowers #followers .thumb-img{
+	margin-right: 6px;
+	float: left;
+}
+#instagramFollowers #followers .right-text{
+	float: left;
+}
+#instagramFollowers #followers .right-text .title{
+	margin: 0px;
+	color: #4a67b7;
+	font-size: 18px;
+}
+#instagramFollowers #followers .imagelisting p{
+	font-size: 11px;
+	margin: 5px;
+	padding: 5px;
+	border-top: 1px solid #d8dfea;
+}
+#instagramFollowers #followers .imagelisting p span{
+	color: #3b5998;
+}
+#instagramFollowers #followers .imagelisting .icon{
+	background: url(images/fb-icon.jpg)left no-repeat;
+	color: #aaaaaa;
+	padding-left: 16px;
+}
+
+#instagramFollowers #followers ul {
+	margin: 0;
+	padding: 10px;
+	padding-top: 0;
+}
+#instagramFollowers #followers ul li{
+	list-style: none;
+	float: left;
+	margin: 0px 3px 3px 0px;
+}
+.thumb-img {
+width: 50px;
+}
+#instagramFollowers #followers .right-text .title a{
+color: #111;
+}
+.imagelisting li {
+width: 50px;
+}
+.followUs {
+font-weight: bold;
+}
+@media(max-width: 380px){
+	#followers{
+		width: 100% !important;
+	}
+}
+.followButton {
+background: #005580;
+padding: 5px;
+color: #fff!important;
+font-weight: bold;
+border-radius: 5px;
+margin: 0px;
+font-size: 12px;
+}
+.followButton:hover{
+color: #fff!important;
+}
